@@ -27,5 +27,11 @@ In order to run this code you must have all necessary libraries and their depend
 - Time
 - Dlib
   Dlib proved to be the hardest to implement because of its dependencies like CMake.
-If you chose to run this on a Mac I would recommend installing CMake with homebrew, by following this tutorial: 
+If you chose to run this on a Mac I would recommend installing CMake with homebrew, by following this tutorial:
+
+Additionally you will need the facial landmarks file for Dlip to recognize specific parts on the face.
+I scraped the facial landmarks from someone else's github repo, so you can do the same in your implementation.
+
+#### shape_predictor_68_face_landmarks.dat Link:
+https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat
 
