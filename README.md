@@ -25,7 +25,7 @@ https://youtu.be/6CTSYtoE3rc?si=Kf9moJ3v6Br-dWex
 To get this code running download the cameraTracking.py file for the facial recognition.
 
 Then download the arduino code and upload it to any arduino capable microcontroller.
-###### (Change the baud rates in both pyhton and arduino files accordingly)
+###### (Change the baud rates in both pyhton and arduino files according to your microcontroller)
 If you want a refrence image for what landmarks to use if you are adapting this code later on, that is also listed in the repository.
 Lastly you need the facial landmarks.dat file for Dlib to process the face. (see bottom of readme file)
 
