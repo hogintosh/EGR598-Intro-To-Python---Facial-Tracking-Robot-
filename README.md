@@ -23,8 +23,10 @@ https://youtu.be/6CTSYtoE3rc?si=Kf9moJ3v6Br-dWex
 
 ### Implementation
 To get this code running download the cameraTracking.py file for the facial recognition.
-Then download the arduino code and upload it to any arduino capable microcontroller ##### (Change the baud rates in both pyhton and arduino files accordingly)
-If you want a refrence image for what landmarks to use if you are adapting this code later on that is also listed in the repository.
+
+Then download the arduino code and upload it to any arduino capable microcontroller.
+##### (Change the baud rates in both pyhton and arduino files accordingly)
+If you want a refrence image for what landmarks to use if you are adapting this code later on, that is also listed in the repository.
 Lastly you need the facial landmarks.dat file for Dlib to process the face. (see bottom of readme file)
 
 ##### Dependencies
@@ -37,6 +39,7 @@ In order to run this code you must have all necessary libraries and their depend
 - Dlib
   Dlib proved to be the hardest to implement because of its dependencies like CMake.
 If you chose to run this on a Mac I would recommend installing CMake with homebrew, by following this tutorial:
+
 
 Additionally you will need the facial landmarks file for Dlib to recognize specific parts on the face.
 I scraped the facial landmarks from someone else's github repo, so you can do the same in your implementation.
