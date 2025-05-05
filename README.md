@@ -7,7 +7,7 @@ EGR598 Intro To Python - "Facial Tracking Robot"
 User beaware, this code brings forth laplaces demon in the form of a robot that knocks stuff over on your desk.
 
 ### Idea/Exigency
-I wanted to make this funny robot that knocks over things on my desk if i am not looking at it. My python code detects if you are looking away from the robot, and if you are it sends a trigger command to my ESP32 robot over UART. When this command is recieved by the robot, the robot first checks if there are any objects on the table to knock off with its servo. It can do this by sensing if an object is placed on it's pressure place that connects two wires and pulls a digital pin low. If there isn't an object the robot does not move because that would ruin its inconspicous nature.
+I wanted to make this funny robot that knocks over things on my desk if i am not looking at it. My python code detects if you are looking away from the robot, and if you are it sends a trigger command to my ESP32 robot over UART. When this command is recieved by the robot, the robot first checks if there are any objects on the table to knock off with its servo. It can do this by sensing if an object is placed on it's pressure plate that connects two wires and pulls a digital pin low. If there isn't an object the robot does not move because that would ruin its inconspicous nature.
 
 ###### Disclaimer:
 This robot will detect in real time if you are looking at the robot. It does this by processing images coming from your webcam and detecting your gaze direction. Right now the code is set up for a robot placed to the left of the users webcam. 
