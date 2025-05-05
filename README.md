@@ -16,7 +16,8 @@ So with these ratios, I set the thresholds to determine if I am looking at the r
 
 For detecting if the user is blinking, I drew 3 horizontal lines. The main horizontal line across landmarks 36 and 39 for the left eye with 42 and 45 for the right eye. This is the main length of the eyeball. Then for the other two horizontal lines, I drew a line for the upper eyelid and lower eyelid (left eye upper [37-38], left eye lower[41-40]). I took the midpoint of these lines as a way to draw a verticle line to measure the height of the eyeball. Then the ratio for one eyeball was calculated with this eye length and height. If this ratio calculated for both eyes is within a set threshold. Then the code determines that the user is blinking. 
 
-If you want a more generalized idea of how this code works consult my youtube video:
+If you want a more generalized idea of how this code works consult 
+### my youtube video:
 https://youtu.be/6CTSYtoE3rc?si=Kf9moJ3v6Br-dWex
 
 In order to run this code you must have all necessary libraries and their dependencies.
