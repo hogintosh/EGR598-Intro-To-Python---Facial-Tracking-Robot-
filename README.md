@@ -25,7 +25,7 @@ If you want a more generalized idea of how this code works consult the link belo
 https://youtu.be/6CTSYtoE3rc?si=Kf9moJ3v6Br-dWex
 
 ### Implementation
-To get this code running download the cameraTracking.py file for the facial recognition.
+To get this code running download the cameraTracking.py file for facial recognition.
 
 Then download the arduino code and upload it to any arduino capable microcontroller.
 ###### (Change the baud rates in both pyhton and arduino files according to your microcontroller)
