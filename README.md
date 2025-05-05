@@ -1,5 +1,6 @@
 # EGR598-Intro-To-Python---Facial-Tracking-Robot-
 EGR598 Intro To Python - "Facial Tracking Robot"
+![Uploading IMG_0891.jpg…]()
 
 User beaware, this code brings forth laplaces demon in the form of a robot that knocks stuff over on your desk.
 
