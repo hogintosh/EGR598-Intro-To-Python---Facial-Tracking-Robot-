@@ -40,7 +40,7 @@ In order to run this code you must have all necessary libraries and their depend
 - Serial
 - Time
 - Dlib
-  Dlib proved to be the hardest to implement because of its dependencies like CMake.
+Dlib proved to be the hardest to implement because of its dependencies like CMake.
 If you chose to run this on a Mac I would recommend installing CMake with homebrew, by following this tutorial:
 
 
