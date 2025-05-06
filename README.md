@@ -43,7 +43,7 @@ In order to run this code you must have all necessary libraries and their depend
 
 Dlib proved to be the hardest to implement because of its dependencies like CMake.
 If you chose to run this on a Mac I would recommend installing CMake with homebrew, by following this tutorial:
-
+https://stackoverflow.com/questions/54719496/how-to-install-dlib-for-python-on-mac
 
 Additionally you will need the facial landmarks file for Dlib to recognize specific parts on the face.
 I scraped the facial landmarks from someone else's github repo, so you can do the same in your implementation.
